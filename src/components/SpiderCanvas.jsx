@@ -119,7 +119,7 @@ const SpiderCanvas = () => {
 
   return (
     <>
-      <div className="w-full h-[52vh] overflow-hidden bg-black relative top-0 left-0 z-10 border-3 border-gray-500 shadow-2xl shadow-gray-900 hover:border-gray-600 transition-all ease-in-out duration-300">
+      <div className="w-full h-[52vh] overflow-hidden bg-black relative top-0 left-0 z-10 border-4 border-gray-500 shadow-2xl shadow-gray-900 hover:border-gray-600 transition-all ease-in-out duration-300">
         <div 
           className="relative w-full text-center top-5 text-white text-4xl tracking-wider flex justify-center" 
           style={{ 
@@ -134,7 +134,7 @@ const SpiderCanvas = () => {
         </div>
         <canvas ref={canvasRef} className="w-full h-[55vh] block" />
       </div>
-      <div className="absolute bottom-60 left-46 rounded-full z-10 p-1 bg-gradient-to-br from-white via-gray-200 to-gray-400 shadow-[0_0_25px_rgba(255,255,255,0.6)]">
+      <div className="absolute bottom-60 left-[298px] rounded-full z-10 p-1 bg-gradient-to-br from-white via-gray-200 to-gray-400 shadow-[0_0_25px_rgba(255,255,255,0.6)]">
         <img
           src={profile}
           alt="profile picture"

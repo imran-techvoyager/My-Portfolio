@@ -3,27 +3,41 @@ import SpiderCanvas from '../components/SpiderCanvas'
 import { Cake } from 'lucide-react';
 import { MapPin } from 'lucide-react';
 import { SocialIcon } from 'react-social-icons'
+import profile from "../assets/profile.jpg";
 
 const Hero = () => {
   return (
     <>
     <div id='home' className='relative min-h-screen w-full'>
+      <div className='hidden lg:block'>
        <SpiderCanvas />
-       <div className="absolute bottom-8 left-38 w-full px-10 flex justify-between items-center max-w-screen-xl mx-auto" style={{fontFamily: "'Black Ops One', system-ui"}}>
-  <div className="details flex flex-col justify-start gap-3 text-white">
-    <h1 className='text-3xl font-extrabold'>Imran Ahmed</h1>
-    <div>
-       <h3 className='text-xl font-light'>Full stack developer & Open source Enthusiast</h3>
-    </div>
-    <div className='flex items-center gap-2'>
-        <div><Cake size={20}/></div>
-        <div><h3 className='text-xl font-light'>Born January 8, 2002</h3></div>
-        <div className='flex items-center gap-2'>
-        <div><MapPin size={20}/></div>
-        <div><h3 className='text-xl font-light'>Hyderabad</h3></div>
+      </div>
+      <div className='flex items-center justify-center mt-20 mb-5 lg:hidden'>
+        <div className='rounded-full z-10 p-1 bg-gradient-to-br from-white via-gray-200 to-gray-400 shadow-[0_0_25px_rgba(255,255,255,0.6)]'>
+             <img
+              src={profile}
+              alt="profile picture"
+              className="w-[210px] h-[210px] rounded-full object-cover border-[3px] border-[#0d1117]"
+             />
         </div>
+      </div>
+       <div className="lg:absolute lg:bottom-7 lg:left-[68px] w-full px-10 flex lg:flex-row flex-col lg:justify-between justify-center items-center max-w-screen-xl mx-auto">
+  <div className="details flex flex-col justify-center items-center lg:justify-start gap-8 lg:gap-3 text-white">
+    <h1 className='text-3xl font-extrabold font-blackops'>Imran Ahmed</h1>
+    <div>
+       <h3 className='text-xl font-extrabold font-orbitron tracking-widest'>Full stack developer & Open source Enthusiast</h3>
     </div>
-    <div className="social-icons flex gap-5 mt-2">
+    <div className="flex flex-wrap items-center gap-3 text-md md:text-xl">
+            <div className="flex items-center gap-2">
+              <Cake size={20} />
+              <span className='font-orbitron'>Born January 8, 2002</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <MapPin size={20} />
+              <span className='font-blackops'>India</span>
+            </div>
+          </div>
+    <div className="social-icons flex gap-5 m-5 lg:mt-2">
         <div className="rounded-full z-10 p-1 bg-gradient-to-br from-white via-gray-200 to-gray-400 shadow-[0_0_8px_rgba(255,255,255,0.6)] hover:shadow-[0_0_13px_rgba(255,255,255,0.8)] transition-all duration-300">
            <SocialIcon target="_blank" url="https://github.com/imran-techvoyager" />
         </div>
@@ -35,13 +49,18 @@ const Hero = () => {
         </div>
     </div>
   </div>
-  <div className="buttons flex flex-col gap-13 mr-38" >
-    <button className="text-md pt-5 px-10 py-4 rounded-full bg-gradient-to-br from-white via-gray-200 to-gray-400 text-black font-semibold shadow-[0_0_15px_rgba(255,255,255,0.6)] hover:shadow-[0_0_28px_rgba(255,255,255,0.8)] transition-all duration-300">
-      Resume
-    </button>
-    <button className="text-md pt-5 px-10 py-4 rounded-full bg-gradient-to-br from-white via-gray-200 to-gray-400 text-black font-semibold shadow-[0_0_15px_rgba(255,255,255,0.6)] hover:shadow-[0_0_28px_rgba(255,255,255,0.8)] transition-all duration-300">
-      Hire Me
-    </button>
+  <div className="buttons flex flex-col lg:flex-row gap-8 lg:gap-5 w-full lg:w-auto lg:mr-3 font-blackops" >
+    <button className="text-[20px] pt-5 px-10 py-4 rounded-full bg-gradient-to-r from-purple-500 via-purple-700 to-indigo-700  font-semibold shadow-[0_0_15px_rgba(255,255,255,0.6)] hover:shadow-[0_0_20px_rgba(255,255,255,0.8)] transition-all duration-300">
+  <span className="bg-gradient-to-br from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+    Resume
+  </span>
+</button>
+    <button className="text-[20px] pt-5 px-10 py-4 rounded-full bg-gradient-to-r from-purple-500 via-purple-700 to-indigo-700  font-semibold shadow-[0_0_15px_rgba(255,255,255,0.6)] hover:shadow-[0_0_20px_rgba(255,255,255,0.8)] transition-all duration-300">
+  <span className="bg-gradient-to-br from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+    Hire me
+  </span>
+</button>
+
   </div>
 </div>
     </div>
