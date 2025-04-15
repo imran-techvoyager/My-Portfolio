@@ -14,8 +14,8 @@ const Skills = () => {
           {[
             // { name: "C", icon: "c" },
             { name: "C++", icon: "cplusplus" },
-            { name: "C#", icon: "csharp" },
-            // { name: "Java", icon: "java" },
+            { name: "C", icon: "c" },
+            { name: "Java", icon: "java" },
             { name: "JavaScript", icon: "javascript" },
             { name: "TypeScript", icon: "typescript" },
             { name: "Python", icon: "python" },
@@ -49,6 +49,10 @@ const Skills = () => {
             { name: "Express", icon: "express" },
             { name: "Bootstrap", icon: "bootstrap" },
             { name: "Tailwind", icon: "tailwindcss" },
+            { name: "Materialui", icon: "materialui" },
+            { name: "Redux", icon: "redux" },
+            { name: "Numpy", icon: "numpy" },
+            { name: "Pandas", icon: "pandas" },
             // { name: "Sass", icon: "sass" },
           ].map((tech) => (
             <div
@@ -76,8 +80,9 @@ const Skills = () => {
             { name: "Firebase", icon: "firebase" },
             { name: "MongoDB", icon: "mongodb" },
             { name: "MySQL", icon: "mysql" },
-            
+            { name: "Postgresql", icon: "postgresql" },
             { name: "Figma", icon: "figma" },
+            { name: "Anaconda", icon: "anaconda" },
           ].map((tech) => (
             <div
               key={tech.name}
@@ -103,6 +108,7 @@ const Skills = () => {
             { name: "Git Hub", icon: "github" },
             { name: "Neo Vim", icon: "neovim" },
             { name: "Postman", icon: "postman" },
+            { name: "Vscode", icon: "vscode" },
             // { name: "Linux", icon: "linux" },
             // { name: "Android", icon: "android" },
             // { name: "Arduino", icon: "arduino" },
