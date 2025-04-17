@@ -27,7 +27,7 @@ const Hero = () => {
     <div>
        <h3 className='text-xl font-extrabold font-orbitron tracking-widest'>Full stack developer & Open source Enthusiast</h3>
     </div>
-    <div className="flex flex-wrap items-center gap-3 text-md md:text-xl">
+    <div className="flex flex-wrap items-center gap-3 text-xl md:text-xl">
             <div className="flex items-center gap-2">
               <Cake size={20} />
               <span className='font-orbitron'>Born January 8, 2002</span>
@@ -50,16 +50,22 @@ const Hero = () => {
     </div>
   </div>
   <div className="buttons flex flex-col lg:flex-row gap-8 lg:gap-5 w-full lg:w-auto lg:mr-3 font-blackops" >
-    <button className="text-[20px] pt-5 px-10 py-4 rounded-full bg-gradient-to-r from-purple-500 via-purple-700 to-indigo-700  font-semibold shadow-[0_0_15px_rgba(255,255,255,0.6)] hover:shadow-[0_0_20px_rgba(255,255,255,0.8)] transition-all duration-300">
+    <button className="text-[20px] w-full md:px-10 py-4 md:py-2 rounded-full bg-gradient-to-r from-purple-500 via-purple-700 to-indigo-700  font-semibold shadow-[0_0_15px_rgba(255,255,255,0.6)] hover:shadow-[0_0_20px_rgba(255,255,255,0.8)] transition-all duration-300">
   <span className="bg-gradient-to-br from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
     Resume
   </span>
 </button>
-    <button className="text-[20px] pt-5 px-10 py-4 rounded-full bg-gradient-to-r from-purple-500 via-purple-700 to-indigo-700  font-semibold shadow-[0_0_15px_rgba(255,255,255,0.6)] hover:shadow-[0_0_20px_rgba(255,255,255,0.8)] transition-all duration-300">
+<a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=imran.techvoyager@gmail.com&su=Freelance%20Opportunity&body=Hi%20Imran%2C%20I%20would%20like%20to%20hire%20you%20for..."
+  target="_blank"
+  rel="noopener noreferrer"
+>
+    <button className="text-[20px] w-full md:px-20 py-4 md:py-2 rounded-full bg-gradient-to-r from-purple-500 via-purple-700 to-indigo-700  font-semibold shadow-[0_0_15px_rgba(255,255,255,0.6)] hover:shadow-[0_0_20px_rgba(255,255,255,0.8)] transition-all duration-300">
   <span className="bg-gradient-to-br from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
     Hire me
   </span>
 </button>
+</a>
 
   </div>
 </div>

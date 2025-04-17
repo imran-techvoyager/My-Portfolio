@@ -40,6 +40,6 @@ padding: 24px;
 }
 
 body {
-  cursor: url('../public/cursornew.png'), auto; 
+  cursor: url('/cursornew.png'), auto; 
   
 }

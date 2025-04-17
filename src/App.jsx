@@ -5,6 +5,8 @@ import Hero from './sections/Hero';
 import Skills from './sections/Skills';
 import About from './sections/About';
 import Preloder from './components/Preloder';
+import Projects from './sections/Projects';
+import Footer from './sections/Footer';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -27,8 +29,8 @@ function App() {
       <Hero />
       <About />
       <Skills />
-
-      {/* other sections */}
+      <Projects />
+      <Footer />
     </div>
       )
       }
