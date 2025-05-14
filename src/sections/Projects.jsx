@@ -126,7 +126,7 @@ const Projects = () => {
       </div>
       {/* BlogSpace Project */}
       <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105">
-        <img src={blogspace} alt="BlogSpace" className="w-full h-48 object-cover" />
+        <img src={todo} alt="BlogSpace" className="w-full h-48 object-cover" />
         <div className="p-4">
           <h3 className="text-xl font-bold font-blackops tracking-wide text-white mb-2">BlogSpace</h3>
           <p className="text-gray-400 font-mono tracking-widest mb-4">BlogSpace is a platform for creating and sharing blogs, with a focus on simplicity and ease of use.</p>
