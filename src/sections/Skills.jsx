@@ -75,13 +75,12 @@ const Skills = () => {
         <h4 className="w-full text-2xl font-blackops text-gray-300 mt-8 mb-4">Development Tools</h4>
         <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-6 w-full">
           {[
-            { name: "Git", icon: "git" },
-            { name: "Docker", icon: "docker" },
-            { name: "Firebase", icon: "firebase" },
             { name: "MongoDB", icon: "mongodb" },
             { name: "MySQL", icon: "mysql" },
             { name: "Postgresql", icon: "postgresql" },
             { name: "Figma", icon: "figma" },
+            { name: "Git", icon: "git" },
+            { name: "Docker", icon: "docker" },
             { name: "Anaconda", icon: "anaconda" },
           ].map((tech) => (
             <div
@@ -104,9 +103,7 @@ const Skills = () => {
         <h4 className="w-full text-2xl font-blackops text-gray-300 mt-8 mb-4">Platforms & Technologies</h4>
         <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-6 w-full">
           {[
-            { name: "Vim", icon: "vim" },
             { name: "Git Hub", icon: "github" },
-            { name: "Neo Vim", icon: "neovim" },
             { name: "Postman", icon: "postman" },
             { name: "Vscode", icon: "vscode" },
             // { name: "Linux", icon: "linux" },

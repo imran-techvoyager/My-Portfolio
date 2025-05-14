@@ -3,6 +3,7 @@ import brainwave from '../assets/brainwave.png';
 import todo from '../assets/todo.png';
 import jobcast from '../assets/jobcast.png';
 import fileforge from '../assets/fileforge.png';
+import blobspace from '../assets/blobspace.png';
 
 const Projects = () => {
   return (
@@ -15,8 +16,8 @@ const Projects = () => {
       <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105">
         <img src={jobcast} alt="Job-Cast" className="w-full h-48 object-cover" />
         <div className="p-4">
-          <h3 className="text-xl font-bold font-blackops tracking-wide text-white mb-2">Job-Cast</h3>
-          <p className="text-gray-400 font-mono tracking-widest mb-4">Job-Cast is a WhatsApp bot that delivers curated job alerts straight to your phone, powered by Node.js, cron scheduling, and Twilio.</p>
+          <h3 className="text-xl font-medium font-blackops tracking-wide text-white mb-2">Job-Cast</h3>
+          <p className="text-gray-400 font-poppins tracking-wide mb-4">Job-Cast is a WhatsApp bot that delivers curated job alerts straight to your phone, powered by Node.js, cron scheduling, and Twilio.</p>
 
           {/* Tech Stack Icons */}
           <div className="flex flex-wrap gap-2 mb-4">
@@ -53,8 +54,8 @@ const Projects = () => {
       <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105">
         <img src={fileforge} alt="FileForge" className="w-full h-48 object-cover" />
         <div className="p-4">
-          <h3 className="text-xl font-bold font-blackops tracking-wide text-white mb-2">FileForge</h3>
-          <p className="text-gray-400 font-mono tracking-widest mb-4">FileForge is a powerful file management system that allows you to organize, share, and collaborate on files seamlessly.</p>
+          <h3 className="text-xl font-medium font-blackops tracking-wide text-white mb-2">FileForge</h3>
+          <p className="text-gray-400 font-poppins tracking-wide mb-4">FileForge is a powerful file management system that allows you to organize, share, and collaborate on files seamlessly.</p>
 
           {/* Tech Stack Icons */}
           <div className="flex flex-wrap gap-2 mb-4">
@@ -91,8 +92,8 @@ const Projects = () => {
       <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105">
         <img src={brainwave} alt="Brainwave" className="w-full h-48 object-cover" />
         <div className="p-4">
-          <h3 className="text-xl font-bold font-blackops tracking-wide text-white mb-2">Brainwave-Ui</h3>
-          <p className="text-gray-400 font-mono tracking-widest mb-4">Brainwave is designed to showcase a futuristic UI, perfect for AI startups, SaaS platforms, or landing pages.</p>
+          <h3 className="text-xl font-medium font-blackops tracking-wide text-white mb-2">Brainwave-Ui</h3>
+          <p className="text-gray-400 font-poppins tracking-wide mb-4">Brainwave is designed to showcase a futuristic UI, perfect for AI startups, SaaS platforms, or landing pages.</p>
           
           {/* Tech Stack Icons */}
           <div className="flex flex-wrap gap-2 mb-4">
@@ -126,10 +127,10 @@ const Projects = () => {
       </div>
       {/* BlogSpace Project */}
       <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105">
-        <img src={todo} alt="BlogSpace" className="w-full h-48 object-cover" />
+        <img src={blobspace} alt="BlogSpace" className="w-full h-48 object-cover" />
         <div className="p-4">
-          <h3 className="text-xl font-bold font-blackops tracking-wide text-white mb-2">BlogSpace</h3>
-          <p className="text-gray-400 font-mono tracking-widest mb-4">BlogSpace is a platform for creating and sharing blogs, with a focus on simplicity and ease of use.</p>
+          <h3 className="text-xl font-medium font-blackops tracking-wide text-white mb-2">BlogSpace</h3>
+          <p className="text-gray-400 font-poppins tracking-wide mb-4">BlogSpace is a platform for creating and sharing blogs, with a focus on simplicity and ease of use.</p>
 
           {/* Tech Stack Icons */}
           <div className="flex flex-wrap gap-2 mb-4">
@@ -168,8 +169,8 @@ const Projects = () => {
       <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-blue-500/30 transition-all duration-300 hover:scale-105">
         <img src={todo} alt="Todo" className="w-full h-48 object-cover" />
         <div className="p-4">
-          <h3 className="text-xl font-bold font-blackops tracking-wide text-white mb-2">Todo-app</h3>
-          <p className="text-gray-400 font-mono tracking-widest mb-4">A minimal and intuitive ToDo application built with React and Tailwind CSS</p>
+          <h3 className="text-xl font-medium font-blackops tracking-wide text-white mb-2">Todo-app</h3>
+          <p className="text-gray-400 font-poppins tracking-wide mb-4">A minimal and intuitive ToDo application built with React and Tailwind CSS</p>
 
           <div className="flex flex-wrap gap-2 mb-4">
             {[
