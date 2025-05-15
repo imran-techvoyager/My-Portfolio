@@ -1,4 +1,3 @@
-import React from 'react';
 import brainwave from '../assets/brainwave.png';
 import todo from '../assets/todo.png';
 import jobcast from '../assets/jobcast.png';
