@@ -1,4 +1,4 @@
-# 🌐 Imran's Developer Portfolio
+# 🌐 Imran's Portfolio
 
 Welcome to my personal **developer portfolio website** – a sleek, responsive, and modern interface built using **React.js** and **Tailwind CSS**. This site showcases who I am, what I do, and what I’ve built!
 
