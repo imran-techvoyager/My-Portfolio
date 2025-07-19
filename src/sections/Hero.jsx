@@ -45,7 +45,7 @@ const Hero = () => {
            <SocialIcon target="_blank" url="https://x.com/imranahmedtech" />
         </div>
         <div className="rounded-full z-10 p-1 bg-gradient-to-br from-white via-gray-200 to-gray-400 shadow-[0_0_8px_rgba(255,255,255,0.6)] hover:shadow-[0_0_13px_rgba(255,255,255,0.8)] transition-all duration-300">
-           <SocialIcon target="_blank" url="https://discord.com/channels/@me" />
+           <SocialIcon target="_blank" url="https://linkedin.com/in/imran-ahmed-b76a47326" />
         </div>
     </div>
   </div>
